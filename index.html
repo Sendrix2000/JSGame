@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Awesome Game, poor JS!</title>
+
+    <!-- Bootstrap -->
+    <link href="cosmo.bootstrap.min.css" rel="stylesheet">
+		<script src="script.js"></script>
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-9">
+				<h2>Resources</h2><hr>
+				<ul class="list-group">
+				  <li class="list-group-item">
+				    <span class="badge" id="wood">0</span>
+				    Wood
+				  </li>
+				  <li class="list-group-item">
+				    <span class="badge" id="stone">0</span>
+				    Stone
+				  </li>
+					<li class="list-group-item">
+				    <span class="badge" id="iron">0</span>
+				    Iron
+				  </li>
+					<li class="list-group-item">
+						<span class="badge" id="gold">0</span>
+						Gold
+					</li>
+					<li class="list-group-item">
+						<span class="badge" id="diamond">0</span>
+						Diamond
+					</li>
+				</ul>
+				<h2>Recent events</h2><hr>
+			</div>
+			<div class="col-sm-3">
+				<button type="button" id="gatherWood" onClick="gatherWood()" class="btn btn-success btn-lg btn-block">Gather wood</button>
+				<button type="button" class="btn btn-default btn-lg btn-block" id="gatherRock" onClick="mining()">Go mining</button>
+				<button type="button" class="btn btn-warning btn-lg btn-block">Upgrade Woodclick</button>
+				<button type="button" class="btn btn-info btn-lg btn-block">Upgrade Stoneclick</button>
+				<button type="button" class="btn btn-primary btn-lg btn-block">Upgrade Ironclick</button>
+								<button type="button" class="btn btn-default btn-lg btn-block">Upgrade Goldclick</button>
+			</div>
+		</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
