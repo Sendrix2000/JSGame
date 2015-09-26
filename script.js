@@ -155,16 +155,3 @@ function upgradeMiningClick() {
 /* End Map*/
 
 
-/* Start save */
-var save = [wood, stone, iron, gold, diamond]
-
-window.setInterval(function(){
-       document.cookie="save=wood; expires=Thu, 1 Jan 2037 12:00:00 UTC; path=/";
-}, 1000);
-
-/*
-function save() {
-	document.cookie="manualSave=save";
-}
-*/
-/* End save */
