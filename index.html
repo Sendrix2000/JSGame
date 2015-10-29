@@ -43,12 +43,14 @@
 			</div>
 			<div class="col-sm-3">
 				<button type="button" id="gatherWood" onClick="gatherWood()" class="btn btn-success btn-lg btn-block">Gather wood</button>
-				<button type="button" class="btn btn-default btn-lg btn-block" id="gatherRock" onClick="mining()">Go mining</button>
-				<button type="button" class="btn btn-warning btn-lg btn-block">Upgrade Woodclick</button>
+				<button type="button" id="gatherRock" onClick="mining()" class="btn btn-default btn-lg btn-block">Go mining</button>
+				<button type="button" id="upgradeWoodClick" onclick="upgradeWoodClick()" class="btn btn-warning btn-lg btn-block">Upgrade Woodclick 
+					<span class="badge" id="upgradeWoodClickCost">1</span>
+				</button>
 				<button type="button" class="btn btn-info btn-lg btn-block">Upgrade Stoneclick</button>
-				<button type="button" class="btn btn-primary btn-lg btn-block">Upgrade Ironclick</button>
-								<button type="button" class="btn btn-default btn-lg btn-block">Upgrade Goldclick</button>
-			</div>
+				<!-- <button type="button" class="btn btn-primary btn-lg btn-block">Upgrade Ironclick</button>
+				<button type="button" class="btn btn-default btn-lg btn-block">Upgrade Goldclick</button> -->
+			</div> upgradeMiningClick
 		</div>
 	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
